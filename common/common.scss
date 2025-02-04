@@ -1,0 +1,13 @@
+@import "density-variables";
+@import "compact-topic";
+@import "compact-topic-list";
+@import "compact-chat";
+@import "compact-sidebar";
+@import "cozy-topic";
+@import "cozy-chat";
+@import "cozy-topic-list";
+@import "cozy-sidebar";
+
+.dropdown-menu.density-menu .btn.selected {
+  background: var(--tertiary-low);
+}

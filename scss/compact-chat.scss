@@ -1,0 +1,60 @@
+.f-d-compact .chat-message-container .chat-message {
+  padding: 0.2rem 1rem 0.15rem;
+}
+
+.f-d-compact aside.onebox {
+  margin: 0.25em 0;
+  padding: 0.3em;
+}
+
+.f-d-compact {
+  --channel-list-avatar-size: 20px;
+  .onebox {
+    font-size: var(--font-down-1);
+  }
+  .onebox.githubpullrequest .onebox-body,
+  .onebox.githubcommit .onebox-body,
+  .onebox.githubissue .onebox-body {
+    gap: 0.125em 0.35em;
+  }
+  .chat-message .onebox:not(img) header,
+  .chat-drawer-container .chat-message .onebox header {
+    margin-bottom: 0.25em;
+  }
+  .onebox.githubpullrequest .github-body-container,
+  .onebox.githubcommit .github-body-container,
+  .onebox.githubissue .github-body-container {
+    margin: 0.5em 0 0 0;
+  }
+
+  .chat-message-separator-date .chat-message-separator__text-container {
+    height: 20px;
+  }
+  .chat-message-separator-date + .chat-message-separator__line-container {
+    padding: 10px var(--scrollbarWidth) 10px var(--scrollbarWidth);
+  }
+  .chat-drawer-container .channels-list-container .chat-channel-row {
+    height: 2rem;
+    font-size: var(--font-down-1);
+  }
+  .chat-channel-divider {
+    padding: 0.25rem 1rem 0.25rem 1rem;
+  }
+  .chat-channel-row .chat-channel-icon.--users-count {
+    font-size: var(--font-0);
+  }
+  .c-user-thread .chat__thread-title__name {
+    font-size: var(--font-0);
+  }
+  .c-user-thread .chat-message-thread-indicator {
+    margin-top: 0.5rem;
+  }
+  .chat-message-thread-indicator {
+    font-size: var(--font-down-1);
+  }
+  @supports (--custom: property) {
+    aside.onebox .onebox-body .aspect-image {
+      width: calc(75px * var(--magic-ratio));
+    }
+  }
+}

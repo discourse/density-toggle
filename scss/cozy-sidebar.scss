@@ -1,0 +1,14 @@
+.f-d-cozy {
+  --d-sidebar-row-height: calc(2.2em * 0.85);
+}
+
+.f-d-cozy .sidebar-wrapper .sidebar-sections {
+  padding: calc(1.5rem * 0.75) 1rem 1rem;
+}
+
+.f-d-cozy
+  .sidebar-section-link-wrapper
+  .sidebar-section-link
+  .sidebar-section-link-content-text {
+  font-size: var(--font-down-1);
+}
