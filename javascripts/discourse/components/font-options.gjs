@@ -19,7 +19,7 @@ export default class FontOptions extends Component {
       {{#each this.fontDensity.fontOptions as |font|}}
         <dropdown.item>
           <DButton
-            @action={{(fn this.setFont font.value)}}
+            @action={{fn this.setFont font.value}}
             class={{if (eq font.value this.fontDensity.userFont) "selected" ""}}
           >
             {{font.label}}

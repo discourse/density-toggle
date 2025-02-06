@@ -19,7 +19,7 @@ export default class DensityOptions extends Component {
       {{#each this.fontDensity.densityOptions as |density|}}
         <dropdown.item @value={{density.value}}>
           <DButton
-            @action={{(fn this.setDensity density.value)}}
+            @action={{fn this.setDensity density.value}}
             class={{if
               (eq density.value this.fontDensity.userDensity)
               "selected"
