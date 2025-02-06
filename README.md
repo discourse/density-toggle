@@ -1,5 +1,3 @@
-# topic-list-spacing
+# density-toggle
+This theme component allows users to set the density of their view of a Discourse forum. It includes default, cozy, and compact.
 
-**Theme Summary**
-
-For more information, please see: **url to meta topic**
