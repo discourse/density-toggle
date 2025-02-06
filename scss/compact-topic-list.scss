@@ -1,0 +1,43 @@
+.f-d-compact .topic-list .topic-list-data,
+.f-d-compact .post-notice,
+.f-d-compact .small-action-desc {
+  padding: var(--topic-list-spacing-compact);
+  font-size: var(--font-down-1);
+}
+
+.f-d-compact .topic-list .topic-list-item-separator .topic-list-data {
+  padding: 0;
+}
+
+.f-d-compact .topic-list tr.selected td:first-of-type,
+.f-d-compact .topic-list-item.selected td:first-of-type,
+.f-d-compact .latest-topic-list-item.selected {
+  box-shadow: inset 2px 0 0 var(--d-nav-color--active);
+}
+
+.f-d-compact .topic-list-body {
+  border-top: none;
+}
+
+.f-d-compact .main-link.topic-list-data {
+  display: flex;
+}
+
+.f-d-compact .topic-list .badge-category__wrapper .badge-category::before {
+  height: 0.4rem;
+  width: 0.4rem;
+}
+
+.f-d-compact .topic-list .badge-category__wrapper {
+  margin-left: 0.5em;
+}
+
+.f-d-compact .topic-list .topic-list-data.views,
+.f-d-compact .topic-list .topic-list-data.posts,
+.f-d-compact .topic-list .topic-list-data.posters {
+  display: none;
+}
+
+.f-d-compact .topic-list .topic-list-data.activity a {
+  font-size: var(--font-down-1);
+}

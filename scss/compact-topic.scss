@@ -1,0 +1,75 @@
+.f-d-compact .post-notice .d-icon {
+  font-size: 2em;
+}
+
+.f-d-compact .topic-map,
+.f-d-compact .time-gap,
+.f-d-compact .post-notice {
+  display: none;
+}
+
+.f-d-compact .time-gap + .topic-post .topic-body,
+.f-d-compact .time-gap + .topic-post .topic-avatar,
+.f-d-compact .topic-post .topic-body,
+.f-d-compact .topic-post .topic-avatar,
+.f-d-compact .topic-status-info,
+.f-d-compact .topic-timer-info {
+  border-top: 0px solid var(--primary-low);
+}
+
+.f-d-compact .post-menu-area {
+  margin: 5px 0 0 0;
+}
+
+.f-d-compact .post-actions {
+  margin: 0;
+}
+
+.f-d-compact .cooked {
+  padding: -0.5em var(--topic-body-width-padding) 0.25em
+    var(--topic-body-width-padding);
+}
+
+.f-d-compact .cooked p,
+.f-d-compact .cooked h1,
+.f-d-compact .cooked h2,
+.f-d-compact .cooked h3,
+.f-d-compact .cooked h4,
+.f-d-compact .cooked h5,
+.f-d-compact .cooked h6,
+.f-d-compact .cooked pre {
+  margin: 0.25rem 0;
+}
+
+.f-d-compact .cooked ul {
+  margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.f-d-compact .topic-body .topic-meta-data {
+  padding: 0;
+}
+
+.f-d-compact .topic-body {
+  --topic-body-width: 750px;
+  --topic-body-width-padding: 5px;
+}
+
+.f-d-compact .topic-body {
+  padding-left: 0.25em;
+}
+
+.f-d-compact pre > code {
+  padding: 6px;
+  font-size: var(--font-down-1);
+}
+
+.f-d-compact code,
+.f-d-compact .post-stream,
+.f-d-compact .topic-post .relative-date {
+  font-size: var(--font-down-1);
+}
+
+.f-d-compact .post-avatar img.avatar {
+  width: 38px;
+  height: 38px;
+}

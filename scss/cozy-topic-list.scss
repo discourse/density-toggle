@@ -1,0 +1,13 @@
+.f-d-cozy .topic-list-body {
+  border-top: 1px solid var(--primary-low);
+}
+
+.f-d-cozy .topic-list .badge-category__wrapper .badge-category::before {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.f-d-cozy .topic-list .topic-list-data {
+  padding: var(--topic-list-spacing-cozy);
+  font-size: var(--font-0);
+}

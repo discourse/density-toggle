@@ -1,0 +1,21 @@
+@import "density-variables";
+@import "compact-topic";
+@import "compact-topic-list";
+@import "compact-chat";
+@import "compact-sidebar";
+@import "cozy-topic";
+@import "cozy-chat";
+@import "cozy-topic-list";
+@import "cozy-sidebar";
+
+.dropdown-menu.density-menu {
+  width: 100px;
+  min-width: unset;
+  .dropdown-menu__item .btn {
+    font-size: var(--font-down-1);
+    padding: 5px;
+  }
+  .btn.selected {
+    background: var(--tertiary-low);
+  }
+}

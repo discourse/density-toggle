@@ -1,0 +1,33 @@
+:root {
+  --topic-list-spacing-compact: 0.4em 0.165em 0.4em 0.25em;
+  --topic-list-spacing-cozy: 0.6em 0.25em;
+  --topic-spacing-compact: 0.4em 0.165em;
+  --topic-spacing-cozy: 0.6em 0.25em;
+  --sidebar-row-height-compact: calc(var(--d-sidebar-row-height) * 0.7);
+  // Fonts
+  --font-family-arial: "Arial", sans-serif;
+  --font-family-system: system-ui;
+  --font-family-open_sans: "Open Sans", sans-serif;
+  --font-family-oxanium: "Oxanium", sans-serif;
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-family-lato: "Lato", sans-serif;
+  --font-family-inter: "Inter", sans-serif;
+  --font-family-noto_sans_jp: "NotoSansJP", Arial, sans-serif;
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-roboto_condensed: "Roboto Condensed", sans-serif;
+  --font-family-source_sans_pro: "Source Sans Pro", sans-serif;
+  --font-family-oswald: "Oswald", sans-serif;
+  --font-family-raleway: "Raleway", sans-serif;
+  --font-family-roboto_mono: "Roboto Mono", monospace;
+  --font-family-poppins: "Poppins", sans-serif;
+  --font-family-noto_sans: "Noto Sans", sans-serif;
+  --font-family-roboto_slab: "Roboto Slab", serif;
+  --font-family-merriweather: "Merriweather", serif;
+  --font-family-ubuntu: "Ubuntu", sans-serif;
+  --font-family-pt_sans: "PT Sans", sans-serif;
+  --font-family-playfair_display: "Playfair Display", serif;
+  --font-family-nunito: "Nunito", sans-serif;
+  --font-family-lora: "Lora", serif;
+  --font-family-mukta: "Mukta", sans-serif;
+  --font-family-helvetica: "Helvetica", sans-serif;
+}

@@ -1,0 +1,50 @@
+.f-d-cozy .post-notice,
+.f-d-cozy .small-action-desc {
+  padding: var(--topic-spacing-cozy);
+  font-size: var(--font-down-1);
+}
+
+.f-d-cozy .topic-post .relative-date {
+  font-size: var(--font-0);
+}
+.f-d-cozy .post-menu-area {
+  margin: 10px 0 0 0;
+}
+
+.f-d-cozy .post-actions {
+  margin: 4px;
+}
+
+.f-d-cozy .cooked {
+  padding: 0em var(--topic-body-width-padding) 0.5em
+    var(--topic-body-width-padding);
+}
+
+.f-d-cozy .cooked p,
+.f-d-cozy .cooked h1,
+.f-d-cozy .cooked h2,
+.f-d-cozy .cooked h3,
+.f-d-cozy .cooked h4,
+.f-d-cozy .cooked h5,
+.f-d-cozy .cooked h6,
+.f-d-cozy .cooked pre {
+  margin: 0.5rem 0;
+}
+
+.f-d-cozy .cooked ul {
+  margin: 0.75rem 0 0.75rem 0.75rem;
+}
+
+.f-d-cozy pre > code {
+  padding: 8px;
+  font-size: var(--font-0);
+}
+
+.f-d-cozy code {
+  font-size: var(--font-0);
+}
+
+.f-d-cozy .post-avatar img.avatar {
+  width: 44px;
+  height: 44px;
+}
