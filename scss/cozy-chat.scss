@@ -1,13 +1,11 @@
-.f-d-cozy .chat-message-container .chat-message {
-  padding: 0.3rem 1rem 0.3rem;
-}
-
-.f-d-cozy aside.onebox {
-  margin: 0.4em 0;
-  padding: 0.5em;
-}
-
 .f-d-cozy {
+  .chat-message-container .chat-message {
+    padding: 0.3rem 1rem 0.3rem;
+  }
+  aside.onebox {
+    margin: 0.4em 0;
+    padding: 0.5em;
+  }
   .onebox {
     font-size: var(--font-down-1);
   }

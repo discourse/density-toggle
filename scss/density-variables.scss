@@ -1,11 +1,10 @@
 :root {
-  // current spacing target -> .topic-list .topic-list-data
-  // .8em .33em
   --topic-list-spacing-compact: 0.4em 0.165em 0.4em 0.25em;
   --topic-list-spacing-cozy: 0.6em 0.25em;
   --topic-spacing-compact: 0.4em 0.165em;
   --topic-spacing-cozy: 0.6em 0.25em;
-
+  --sidebar-row-height-compact: calc(var(--d-sidebar-row-height) * 0.7);
+  // Fonts
   --font-family-arial: "Arial", sans-serif;
   --font-family-system: system-ui;
   --font-family-open_sans: "Open Sans", sans-serif;

@@ -1,5 +1,5 @@
 .f-d-compact {
-  --d-sidebar-row-height: calc(2.2em * 0.7);
+  --d-sidebar-row-height: var(--sidebar-row-height-compact);
 }
 
 .f-d-compact .sidebar-wrapper .sidebar-sections {
