@@ -14,7 +14,9 @@ export default class DensityMenu extends Component {
   }
 
   <template>
-    <DMenu class="btn no-text btn-icon btn-flat sidebar-footer-actions-button">
+    <DMenu
+      class="btn no-text btn-icon btn-flat sidebar-footer-actions-button density-menu-trigger"
+    >
       <:trigger>
         {{icon "sliders"}}
       </:trigger>
