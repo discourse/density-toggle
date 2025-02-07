@@ -19,3 +19,7 @@
     background: var(--tertiary-low);
   }
 }
+
+.density-menu-content .d-modal__body {
+  z-index: z("modal", "dropdown");
+}
