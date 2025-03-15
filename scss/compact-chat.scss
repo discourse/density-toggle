@@ -37,16 +37,20 @@
   .chat-message-separator-date .chat-message-separator__text-container {
     height: 20px;
   }
+
   .chat-message-separator-date + .chat-message-separator__line-container {
     padding: 10px var(--scrollbarWidth) 10px var(--scrollbarWidth);
   }
+
   .chat-drawer-container .channels-list-container .chat-channel-row {
     height: 2rem;
     font-size: var(--font-down-1);
   }
+
   .chat-channel-divider {
     padding: 0.25rem 1rem 0.25rem 1rem;
   }
+
   .chat-channel-row .chat-channel-icon.--users-count,
   .c-user-thread .chat__thread-title__name {
     font-size: var(--font-0);

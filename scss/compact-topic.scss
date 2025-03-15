@@ -14,7 +14,7 @@
 .f-d-compact .topic-post .topic-avatar,
 .f-d-compact .topic-status-info,
 .f-d-compact .topic-timer-info {
-  border-top: 0px solid var(--primary-low);
+  border-top: 0 solid var(--primary-low);
 }
 
 .f-d-compact .post-menu-area {
@@ -52,9 +52,6 @@
 .f-d-compact .topic-body {
   --topic-body-width: 750px;
   --topic-body-width-padding: 5px;
-}
-
-.f-d-compact .topic-body {
   padding-left: 0.25em;
 }
 
