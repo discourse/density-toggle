@@ -2,33 +2,41 @@
   .chat-message-container .chat-message {
     padding: 0.3rem 1rem 0.3rem;
   }
+
   aside.onebox {
     margin: 0.4em 0;
     padding: 0.5em;
   }
+
   .onebox {
     font-size: var(--font-down-1);
   }
+
   .onebox.githubpullrequest .onebox-body,
   .onebox.githubcommit .onebox-body,
   .onebox.githubissue .onebox-body {
     gap: 0.3em 0.5em;
   }
+
   .chat-message .onebox:not(img) header,
   .chat-drawer-container .chat-message .onebox header {
     margin-bottom: 0.4em;
   }
+
   .onebox.githubpullrequest .github-body-container,
   .onebox.githubcommit .github-body-container,
   .onebox.githubissue .github-body-container {
     margin: 0.5em 0 0 0;
   }
+
   .chat-message-separator-date .chat-message-separator__text-container {
     height: 30px;
   }
+
   .chat-message-separator-date + .chat-message-separator__line-container {
     padding: 15px var(--scrollbarWidth) 15px var(--scrollbarWidth);
   }
+
   @supports (--custom: property) {
     aside.onebox .onebox-body .aspect-image {
       width: calc(100px * var(--magic-ratio));
